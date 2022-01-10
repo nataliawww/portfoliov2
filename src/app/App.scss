@@ -35,24 +35,3 @@ body {
   -webkit-font-smoothing: antialiased;
   background: #f1f4f8;
 }
-
-// header
-
-header {
-  position: absolute;
-  height: 108px;
-  width: 100%;
-  padding: 24px 48px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: $text-color;
-  .logo,
-  .episode {
-    span {
-      font-size: 1rem;
-      font-weight: 700;
-      letter-spacing: 0.04rem;
-    }
-  }
-}

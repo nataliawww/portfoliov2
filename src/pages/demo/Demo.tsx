@@ -65,13 +65,11 @@ const SpinningMesh = ({ position, color, speed, args }: any) => {
 const Demo = () => {
   return (
     <div id="canvas-container">
-      <Header />
-      {/* Our Scene & Camera is already built into our canvas */}
       <Canvas shadows camera={{ position: [-5, 2, 10], fov: 60 }}>
         {/* This light makes things look pretty */}
         <ambientLight intensity={0.3} />
         {/* Our main source of light, also casting our shadow */}
-        <directionalLight
+        {/* <directionalLight
           castShadow
           position={[0, 10, 0]}
           intensity={1.5}
@@ -82,10 +80,10 @@ const Demo = () => {
           shadow-camera-right={10}
           shadow-camera-top={10}
           shadow-camera-bottom={-10}
-        />
+        /> */}
         {/* A light to help illumnate the spinning boxes */}
-        <pointLight position={[-10, 0, -20]} intensity={0.5} />
-        <pointLight position={[0, -10, 0]} intensity={1.5} />
+        {/* <pointLight position={[-10, 0, -20]} intensity={0.5} />
+        <pointLight position={[0, -10, 0]} intensity={1.5} /> */}
         <group>
           {/* This mesh is the plane (The floor) */}
           <mesh
