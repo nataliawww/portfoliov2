@@ -40,20 +40,3 @@ npm run start
 ```
 npm run build
 ```
-
-### How to contribute :
-
-```bash
-git clone https://github.com/kevinomyonga/R3F-CRA-Starter.git
-&& cd r3f-cra-starter && npm install
-```
-
-## License
-
-Copyright (c) 2021 Kevin Omyonga  
-Released under the MIT license  
-http://opensource.org/licenses/mit-license.php
-
-## Misc
-
-Follow Kevin Omyonga: [Web](http://www.kevinomyonga.com/), [Twitter](https://twitter.com/kevinomyonga)
