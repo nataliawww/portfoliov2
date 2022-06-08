@@ -27,8 +27,7 @@ function Smiley() {
     }
     
     window.addEventListener('mousemove', update)
-    // @ts-ignore
-  }, [setX, setY]);
+  }, [setX, setY, width, height]);
 
   useFrame(() => {
     const targetX = posX * 0.01;
